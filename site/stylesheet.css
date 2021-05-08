@@ -1,0 +1,115 @@
+.image {
+    border: solid;
+    color: black;
+    overflow: auto;
+}
+
+.look2 {
+    color: rgb(35, 19, 49);
+}
+
+.text {
+    text-align: left;
+}
+
+.look {
+    background: rgb(87, 179, 171);
+    color: rgb(87, 179, 171);
+    font-family: Georgia;
+    font-size: 15;
+    border-inline-color: yellow;
+}
+
+h2 {
+    color: rgb(49, 58, 182);
+    font-family: Star Wars;
+}
+
+.look3 {
+    color: rgba(90, 96, 97, 0.938);
+    font-family: Zapf-Chancery;
+}
+
+.look4 {
+    color: rgb(36, 13, 39);
+    font-family: Helvética;
+    font-size: 20px;
+}
+
+.look5 {
+    color: rgb(15, 1, 1);
+    font-family: Helvética;
+    font-size: 15px;
+}
+
+.back {
+    border-radius: 5px;
+    background: rgb(252, 223, 57);
+}
+
+.fine {
+    font-size: 20;
+}
+
+.left {
+    float: left;
+    margin-left: 100px;
+}
+
+.center {
+    float: left;
+    margin-left: 170px;
+}
+
+.right {
+    float: right;
+    margin-right: 100px;
+}
+
+dama {
+    border-radius: 5px;
+    background: grey;
+    font-size: 20;
+    border-inline-color: yellow;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 6px;
+    border: 1px solid #DDD;
+    border-radius: 2px;
+    margin-right: 4px;
+    border-bottom: 0;
+    background: rgb(243, 239, 224);
+}
+
+article {
+    position: center;
+}
+
+section {
+    position: absolute;
+    border: 1px solid #DDD;
+    border-radius: 2px;
+    background: #FFF;
+    width: 1500px;
+    height: 800px;
+    z-index: 0;
+}
+
+section.active {
+    z-index: 1;
+}
+
+
+/* Target cria a referência do elemento clicado */
+
+section:target {
+    z-index: 2
+}
